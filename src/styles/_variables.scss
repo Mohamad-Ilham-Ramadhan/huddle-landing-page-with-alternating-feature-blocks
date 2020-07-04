@@ -1,0 +1,128 @@
+$fonts-path: "./src/fonts";
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("#{$fonts-path}/poppins-v9-latin-600.eot"); /* IE9 Compat Modes */
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+    url("#{$fonts-path}/poppins-v9-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("#{$fonts-path}/poppins-v9-latin-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("#{$fonts-path}/poppins-v9-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("#{$fonts-path}/poppins-v9-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("#{$fonts-path}/poppins-v9-latin-600.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("#{$fonts-path}/open-sans-v17-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+    url("#{$fonts-path}/open-sans-v17-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("#{$fonts-path}/open-sans-v17-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("#{$fonts-path}/open-sans-v17-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("#{$fonts-path}/open-sans-v17-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("#{$fonts-path}/open-sans-v17-latin-regular.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("#{$fonts-path}/open-sans-v17-latin-700.eot"); /* IE9 Compat Modes */
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+    url("#{$fonts-path}/open-sans-v17-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("#{$fonts-path}/open-sans-v17-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("#{$fonts-path}/open-sans-v17-latin-700.woff") format("woff"),
+    /* Modern Browsers */ url("#{$fonts-path}/open-sans-v17-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("#{$fonts-path}/open-sans-v17-latin-700.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("#{$fonts-path}/icomoon.eot?tbwpt9");
+  src: url("#{$fonts-path}/icomoon.eot?tbwpt9#iefix")
+      format("embedded-opentype"),
+    url("#{$fonts-path}/icomoon.ttf?tbwpt9") format("truetype"),
+    url("#{$fonts-path}/icomoon.woff?tbwpt9") format("woff"),
+    url("#{$fonts-path}/icomoon.svg?tbwpt9#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  // speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+// ## Layout
+
+// The designs were created to the following widths:
+
+$mobile: 375px;
+$desktop: 1440px;
+
+// ## Colors
+
+// ### Primary
+
+$primary-pink: hsl(322, 100%, 66%);
+
+// ### Neutral
+
+$very-pale-cyan: hsl(193, 100%, 96%);
+$neutral-very-dark-cyan: hsl(192, 100%, 9%);
+$neutral-grayish-blue: hsl(208, 11%, 55%);
+
+// ## Typography
+
+// ### Body Copy
+
+$font-size: 18px;
+
+// ### Headings
+
+// - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+// - Weights: 600
+
+// ### Body, Call-to-actions
+
+// - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+// - Weights: 400, 700
