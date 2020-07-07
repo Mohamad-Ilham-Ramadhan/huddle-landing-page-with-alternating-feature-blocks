@@ -56,12 +56,12 @@ $fonts-path: "./src/fonts";
 }
 @font-face {
   font-family: "icomoon";
-  src: url("#{$fonts-path}/icomoon.eot?tbwpt9");
-  src: url("#{$fonts-path}/icomoon.eot?tbwpt9#iefix")
+  src: url("#{$fonts-path}/icomoon.eot?qjibmh");
+  src: url("#{$fonts-path}/icomoon.eot?qjibmh#iefix")
       format("embedded-opentype"),
-    url("#{$fonts-path}/icomoon.ttf?tbwpt9") format("truetype"),
-    url("#{$fonts-path}/icomoon.woff?tbwpt9") format("woff"),
-    url("#{$fonts-path}/icomoon.svg?tbwpt9#icomoon") format("svg");
+    url("#{$fonts-path}/icomoon.ttf?qjibmh") format("truetype"),
+    url("#{$fonts-path}/icomoon.woff?qjibmh") format("woff"),
+    url("#{$fonts-path}/icomoon.svg?qjibmh#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -83,6 +83,15 @@ $fonts-path: "./src/fonts";
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-phone_in_talk:before {
+  content: "\e900";
+}
+.icon-location:before {
+  content: "\e901";
+}
+.icon-mail3:before {
+  content: "\ea85";
+}
 .icon-facebook:before {
   content: "\ea90";
 }

@@ -1,3 +1,53 @@
 @use 'styles/vendors/bootstrap/bootstrap';
 @use 'styles/utilities' as *;
 @use 'styles/variables' as *;
+
+// Bootstrap customization
+.btn {
+  font-size: 0.75rem;
+  padding: 0.6rem 3.75rem;
+}
+.btn-sm {
+  font-size: 0.67rem;
+  padding: 0.25rem 1.5rem;
+}
+// Bootstrap customization
+
+// Project specific
+
+body {
+  font-family: "Open Sans";
+  line-height: 1.5;
+}
+.jumbotron-header {
+  background-image: url("./src/images/bg-hero-mobile.svg");
+  background-size: cover;
+  background-position: center center;
+  background-color: $very-pale-cyan;
+  padding: 0;
+
+  .heading-1 {
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+.navbar {
+  margin-bottom: 4.5rem;
+}
+.navbar-brand img {
+  width: 102px;
+}
+.btn-get-started {
+  margin-bottom: 3.3rem;
+}
+.jumbotron-text {
+  font-size: 1rem;
+  padding: 0 1.25rem;
+  margin-bottom: 2rem;
+}
+.img-illustration-mockups {
+  width: 88%;
+  margin-bottom: 2rem;
+}
+// Project specific
