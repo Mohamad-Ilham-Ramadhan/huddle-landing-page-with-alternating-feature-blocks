@@ -51,7 +51,7 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: inherit;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7602,27 +7602,27 @@ button.bg-dark:focus {
 }
 
 .m-5 {
-  margin: 3rem !important;
+  margin: 2.5rem !important;
 }
 
 .mt-5,
 .my-5 {
-  margin-top: 3rem !important;
+  margin-top: 2.5rem !important;
 }
 
 .mr-5,
 .mx-5 {
-  margin-right: 3rem !important;
+  margin-right: 2.5rem !important;
 }
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2.5rem !important;
 }
 
 .ml-5,
 .mx-5 {
-  margin-left: 3rem !important;
+  margin-left: 2.5rem !important;
 }
 
 .p-0 {
@@ -7746,27 +7746,27 @@ button.bg-dark:focus {
 }
 
 .p-5 {
-  padding: 3rem !important;
+  padding: 2.5rem !important;
 }
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 2.5rem !important;
 }
 
 .pr-5,
 .px-5 {
-  padding-right: 3rem !important;
+  padding-right: 2.5rem !important;
 }
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 2.5rem !important;
 }
 
 .pl-5,
 .px-5 {
-  padding-left: 3rem !important;
+  padding-left: 2.5rem !important;
 }
 
 .m-n1 {
@@ -7866,27 +7866,27 @@ button.bg-dark:focus {
 }
 
 .m-n5 {
-  margin: -3rem !important;
+  margin: -2.5rem !important;
 }
 
 .mt-n5,
 .my-n5 {
-  margin-top: -3rem !important;
+  margin-top: -2.5rem !important;
 }
 
 .mr-n5,
 .mx-n5 {
-  margin-right: -3rem !important;
+  margin-right: -2.5rem !important;
 }
 
 .mb-n5,
 .my-n5 {
-  margin-bottom: -3rem !important;
+  margin-bottom: -2.5rem !important;
 }
 
 .ml-n5,
 .mx-n5 {
-  margin-left: -3rem !important;
+  margin-left: -2.5rem !important;
 }
 
 .m-auto {
@@ -8035,27 +8035,27 @@ button.bg-dark:focus {
   }
 
   .m-sm-5 {
-    margin: 3rem !important;
+    margin: 2.5rem !important;
   }
 
   .mt-sm-5,
 .my-sm-5 {
-    margin-top: 3rem !important;
+    margin-top: 2.5rem !important;
   }
 
   .mr-sm-5,
 .mx-sm-5 {
-    margin-right: 3rem !important;
+    margin-right: 2.5rem !important;
   }
 
   .mb-sm-5,
 .my-sm-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2.5rem !important;
   }
 
   .ml-sm-5,
 .mx-sm-5 {
-    margin-left: 3rem !important;
+    margin-left: 2.5rem !important;
   }
 
   .p-sm-0 {
@@ -8179,27 +8179,27 @@ button.bg-dark:focus {
   }
 
   .p-sm-5 {
-    padding: 3rem !important;
+    padding: 2.5rem !important;
   }
 
   .pt-sm-5,
 .py-sm-5 {
-    padding-top: 3rem !important;
+    padding-top: 2.5rem !important;
   }
 
   .pr-sm-5,
 .px-sm-5 {
-    padding-right: 3rem !important;
+    padding-right: 2.5rem !important;
   }
 
   .pb-sm-5,
 .py-sm-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 2.5rem !important;
   }
 
   .pl-sm-5,
 .px-sm-5 {
-    padding-left: 3rem !important;
+    padding-left: 2.5rem !important;
   }
 
   .m-sm-n1 {
@@ -8299,27 +8299,27 @@ button.bg-dark:focus {
   }
 
   .m-sm-n5 {
-    margin: -3rem !important;
+    margin: -2.5rem !important;
   }
 
   .mt-sm-n5,
 .my-sm-n5 {
-    margin-top: -3rem !important;
+    margin-top: -2.5rem !important;
   }
 
   .mr-sm-n5,
 .mx-sm-n5 {
-    margin-right: -3rem !important;
+    margin-right: -2.5rem !important;
   }
 
   .mb-sm-n5,
 .my-sm-n5 {
-    margin-bottom: -3rem !important;
+    margin-bottom: -2.5rem !important;
   }
 
   .ml-sm-n5,
 .mx-sm-n5 {
-    margin-left: -3rem !important;
+    margin-left: -2.5rem !important;
   }
 
   .m-sm-auto {
@@ -8468,27 +8468,27 @@ button.bg-dark:focus {
   }
 
   .m-md-5 {
-    margin: 3rem !important;
+    margin: 2.5rem !important;
   }
 
   .mt-md-5,
 .my-md-5 {
-    margin-top: 3rem !important;
+    margin-top: 2.5rem !important;
   }
 
   .mr-md-5,
 .mx-md-5 {
-    margin-right: 3rem !important;
+    margin-right: 2.5rem !important;
   }
 
   .mb-md-5,
 .my-md-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2.5rem !important;
   }
 
   .ml-md-5,
 .mx-md-5 {
-    margin-left: 3rem !important;
+    margin-left: 2.5rem !important;
   }
 
   .p-md-0 {
@@ -8612,27 +8612,27 @@ button.bg-dark:focus {
   }
 
   .p-md-5 {
-    padding: 3rem !important;
+    padding: 2.5rem !important;
   }
 
   .pt-md-5,
 .py-md-5 {
-    padding-top: 3rem !important;
+    padding-top: 2.5rem !important;
   }
 
   .pr-md-5,
 .px-md-5 {
-    padding-right: 3rem !important;
+    padding-right: 2.5rem !important;
   }
 
   .pb-md-5,
 .py-md-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 2.5rem !important;
   }
 
   .pl-md-5,
 .px-md-5 {
-    padding-left: 3rem !important;
+    padding-left: 2.5rem !important;
   }
 
   .m-md-n1 {
@@ -8732,27 +8732,27 @@ button.bg-dark:focus {
   }
 
   .m-md-n5 {
-    margin: -3rem !important;
+    margin: -2.5rem !important;
   }
 
   .mt-md-n5,
 .my-md-n5 {
-    margin-top: -3rem !important;
+    margin-top: -2.5rem !important;
   }
 
   .mr-md-n5,
 .mx-md-n5 {
-    margin-right: -3rem !important;
+    margin-right: -2.5rem !important;
   }
 
   .mb-md-n5,
 .my-md-n5 {
-    margin-bottom: -3rem !important;
+    margin-bottom: -2.5rem !important;
   }
 
   .ml-md-n5,
 .mx-md-n5 {
-    margin-left: -3rem !important;
+    margin-left: -2.5rem !important;
   }
 
   .m-md-auto {
@@ -8901,27 +8901,27 @@ button.bg-dark:focus {
   }
 
   .m-lg-5 {
-    margin: 3rem !important;
+    margin: 2.5rem !important;
   }
 
   .mt-lg-5,
 .my-lg-5 {
-    margin-top: 3rem !important;
+    margin-top: 2.5rem !important;
   }
 
   .mr-lg-5,
 .mx-lg-5 {
-    margin-right: 3rem !important;
+    margin-right: 2.5rem !important;
   }
 
   .mb-lg-5,
 .my-lg-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2.5rem !important;
   }
 
   .ml-lg-5,
 .mx-lg-5 {
-    margin-left: 3rem !important;
+    margin-left: 2.5rem !important;
   }
 
   .p-lg-0 {
@@ -9045,27 +9045,27 @@ button.bg-dark:focus {
   }
 
   .p-lg-5 {
-    padding: 3rem !important;
+    padding: 2.5rem !important;
   }
 
   .pt-lg-5,
 .py-lg-5 {
-    padding-top: 3rem !important;
+    padding-top: 2.5rem !important;
   }
 
   .pr-lg-5,
 .px-lg-5 {
-    padding-right: 3rem !important;
+    padding-right: 2.5rem !important;
   }
 
   .pb-lg-5,
 .py-lg-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 2.5rem !important;
   }
 
   .pl-lg-5,
 .px-lg-5 {
-    padding-left: 3rem !important;
+    padding-left: 2.5rem !important;
   }
 
   .m-lg-n1 {
@@ -9165,27 +9165,27 @@ button.bg-dark:focus {
   }
 
   .m-lg-n5 {
-    margin: -3rem !important;
+    margin: -2.5rem !important;
   }
 
   .mt-lg-n5,
 .my-lg-n5 {
-    margin-top: -3rem !important;
+    margin-top: -2.5rem !important;
   }
 
   .mr-lg-n5,
 .mx-lg-n5 {
-    margin-right: -3rem !important;
+    margin-right: -2.5rem !important;
   }
 
   .mb-lg-n5,
 .my-lg-n5 {
-    margin-bottom: -3rem !important;
+    margin-bottom: -2.5rem !important;
   }
 
   .ml-lg-n5,
 .mx-lg-n5 {
-    margin-left: -3rem !important;
+    margin-left: -2.5rem !important;
   }
 
   .m-lg-auto {
@@ -9334,27 +9334,27 @@ button.bg-dark:focus {
   }
 
   .m-xl-5 {
-    margin: 3rem !important;
+    margin: 2.5rem !important;
   }
 
   .mt-xl-5,
 .my-xl-5 {
-    margin-top: 3rem !important;
+    margin-top: 2.5rem !important;
   }
 
   .mr-xl-5,
 .mx-xl-5 {
-    margin-right: 3rem !important;
+    margin-right: 2.5rem !important;
   }
 
   .mb-xl-5,
 .my-xl-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2.5rem !important;
   }
 
   .ml-xl-5,
 .mx-xl-5 {
-    margin-left: 3rem !important;
+    margin-left: 2.5rem !important;
   }
 
   .p-xl-0 {
@@ -9478,27 +9478,27 @@ button.bg-dark:focus {
   }
 
   .p-xl-5 {
-    padding: 3rem !important;
+    padding: 2.5rem !important;
   }
 
   .pt-xl-5,
 .py-xl-5 {
-    padding-top: 3rem !important;
+    padding-top: 2.5rem !important;
   }
 
   .pr-xl-5,
 .px-xl-5 {
-    padding-right: 3rem !important;
+    padding-right: 2.5rem !important;
   }
 
   .pb-xl-5,
 .py-xl-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 2.5rem !important;
   }
 
   .pl-xl-5,
 .px-xl-5 {
-    padding-left: 3rem !important;
+    padding-left: 2.5rem !important;
   }
 
   .m-xl-n1 {
@@ -9598,27 +9598,27 @@ button.bg-dark:focus {
   }
 
   .m-xl-n5 {
-    margin: -3rem !important;
+    margin: -2.5rem !important;
   }
 
   .mt-xl-n5,
 .my-xl-n5 {
-    margin-top: -3rem !important;
+    margin-top: -2.5rem !important;
   }
 
   .mr-xl-n5,
 .mx-xl-n5 {
-    margin-right: -3rem !important;
+    margin-right: -2.5rem !important;
   }
 
   .mb-xl-n5,
 .my-xl-n5 {
-    margin-bottom: -3rem !important;
+    margin-bottom: -2.5rem !important;
   }
 
   .ml-xl-n5,
 .mx-xl-n5 {
-    margin-left: -3rem !important;
+    margin-left: -2.5rem !important;
   }
 
   .m-xl-auto {
@@ -11551,7 +11551,7 @@ h3 {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: inherit;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11587,13 +11587,51 @@ h3 {
 }
 
 .btn-sm {
-  font-size: 0.67rem;
+  font-size: 0.65rem;
   padding: 0.25rem 1.5rem;
+}
+
+.card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 0px 12px 0px rgba(128, 141, 153, 0.2);
+}
+
+.card-img-top {
+  margin-bottom: 3.55rem;
+  width: 88%;
+}
+
+.card-body {
+  padding: 2.5rem;
+}
+
+.card-title {
+  margin-bottom: 1.25rem;
+}
+
+.card-text {
+  color: #808d99;
+  font-size: 0.87rem;
+}
+
+.jumbotron {
+  margin-bottom: 3.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
 }
 
 body {
   font-family: "Open Sans";
   line-height: 1.5;
+  color: #00252e;
 }
 
 .jumbotron-header {
@@ -11630,6 +11668,71 @@ body {
 .img-illustration-mockups {
   width: 88%;
   margin-bottom: 2rem;
+}
+
+.card-get-started {
+  position: relative;
+  top: 80px;
+}
+.card-get-started .card-body {
+  padding: 2.85rem 1rem;
+}
+.card-get-started .card-body .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.card-get-started .card-body .btn {
+  font-size: 0.65rem;
+  padding: 0.725rem 3rem;
+}
+
+.footer {
+  background-color: #00252e;
+  color: #ebfbff;
+  padding-top: 135px;
+  padding-bottom: 50px;
+}
+.footer li {
+  padding: 10px 0;
+}
+.footer li a {
+  color: #ebfbff;
+  font-size: 1.1rem;
+}
+.footer li a .footer-logo {
+  width: 50%;
+}
+.footer li .footer-info {
+  padding-left: 10px;
+}
+.footer .icons a {
+  color: #ebfbff;
+}
+.footer .icons a:last-child [class^=icon-] {
+  margin-right: 0px;
+}
+.footer .icons a [class^=icon-] {
+  padding: 7px;
+  border-radius: 100%;
+  font-size: 0.9rem;
+  margin-right: 8px;
+  border: 1px solid #ebfbff;
+}
+
+.copyright {
+  font-size: 0.7rem;
+}
+
+.icon-location {
+  font-size: 1.2rem;
+}
+
+.icon-phone_in_talk {
+  font-size: 1.45rem;
+}
+
+.icon-mail3 {
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

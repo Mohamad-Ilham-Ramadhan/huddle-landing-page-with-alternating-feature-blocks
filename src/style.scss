@@ -8,22 +8,52 @@
   padding: 0.6rem 3.75rem;
 }
 .btn-sm {
-  font-size: 0.67rem;
+  font-size: 0.65rem;
   padding: 0.25rem 1.5rem;
+}
+.card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 0px 12px 0px rgba($neutral-grayish-blue, 0.2);
+}
+.card-img-top {
+  margin-bottom: 3.55rem;
+  width: 88%;
+}
+.card-body {
+  padding: 2.5rem;
+}
+.card-title {
+  margin-bottom: 1.25rem;
+}
+.card-text {
+  color: $neutral-grayish-blue;
+  font-size: 0.87rem;
+}
+.jumbotron {
+  margin-bottom: 3.5rem;
 }
 // Bootstrap customization
 
 // Project specific
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+}
 body {
   font-family: "Open Sans";
   line-height: 1.5;
+  color: $neutral-very-dark-cyan;
 }
 .jumbotron-header {
   background-image: url("./src/images/bg-hero-mobile.svg");
   background-size: cover;
   background-position: center center;
-  background-color: $very-pale-cyan;
+  background-color: $neutral-very-pale-cyan;
   padding: 0;
 
   .heading-1 {
@@ -49,5 +79,69 @@ body {
 .img-illustration-mockups {
   width: 88%;
   margin-bottom: 2rem;
+}
+.card-get-started {
+  position: relative;
+  top: 80px;
+  .card-body {
+    padding: 2.85rem 1rem;
+    .card-title {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      font-size: 0.65rem;
+      padding: 0.725rem 3rem;
+    }
+  }
+}
+.footer {
+  background-color: $neutral-very-dark-cyan;
+  color: $neutral-very-pale-cyan;
+  padding-top: 135px;
+  padding-bottom: 50px;
+  li {
+    padding: 10px 0;
+    a {
+      color: $neutral-very-pale-cyan;
+      font-size: 1.1rem;
+      .footer-logo {
+        width: 50%;
+      }
+    }
+    .footer-info {
+      padding-left: 10px;
+    }
+  }
+  .icons {
+    a {
+      color: $neutral-very-pale-cyan;
+
+      &:last-child {
+        [class^="icon-"] {
+          margin-right: 0px;
+        }
+      }
+      [class^="icon-"] {
+        padding: 7px;
+        border-radius: 100%;
+        font-size: 0.9rem;
+        margin-right: 8px;
+        border: 1px solid $neutral-very-pale-cyan;
+      }
+    }
+  }
+}
+.copyright {
+  font-size: 0.7rem;
+}
+.icon-location {
+  font-size: 1.2rem;
+}
+.icon-phone_in_talk {
+  font-size: 1.45rem;
+}
+.icon-mail3 {
+  font-size: 1.2rem;
 }
 // Project specific

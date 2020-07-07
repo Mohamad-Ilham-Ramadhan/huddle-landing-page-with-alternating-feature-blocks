@@ -76,7 +76,7 @@ $fonts-path: "./src/fonts";
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: inherit;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -116,7 +116,7 @@ $primary-pink: hsl(322, 100%, 66%);
 
 // ### Neutral
 
-$very-pale-cyan: hsl(193, 100%, 96%);
+$neutral-very-pale-cyan: hsl(193, 100%, 96%);
 $neutral-very-dark-cyan: hsl(192, 100%, 9%);
 $neutral-grayish-blue: hsl(208, 11%, 55%);
 
