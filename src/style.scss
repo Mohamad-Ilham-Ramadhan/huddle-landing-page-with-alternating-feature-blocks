@@ -1,4 +1,4 @@
-@use 'styles/vendors/bootstrap/bootstrap';
+@use 'styles/vendors/bootstrap/bootstrap' as *;
 @use 'styles/utilities' as *;
 @use 'styles/variables' as *;
 
@@ -6,6 +6,7 @@
 .btn {
   font-size: 0.75rem;
   padding: 0.6rem 3.75rem;
+  box-shadow: 0px 3px 15px -5px rgba($neutral-very-dark-cyan, 0.25);
 }
 .btn-sm {
   font-size: 0.65rem;
@@ -25,6 +26,7 @@
 }
 .card-title {
   margin-bottom: 1.25rem;
+  font-size: 1.25rem;
 }
 .card-text {
   color: $neutral-grayish-blue;
@@ -92,6 +94,7 @@ body {
     .btn {
       font-size: 0.65rem;
       padding: 0.725rem 3rem;
+      box-shadow: 0px 5px 15px -5px rgba(0, 37, 46, 0.5);
     }
   }
 }
@@ -144,4 +147,135 @@ body {
 .icon-mail3 {
   font-size: 1.2rem;
 }
+
+@include media-breakpoint-up(sm) {
+  .btn {
+    font-size: 0.8rem;
+    padding: 0.7rem 3.75rem;
+  }
+  .btn-sm {
+    font-size: 0.7rem;
+    padding: 0.5rem 1.85rem;
+  }
+  .card-get-started .card-body .btn {
+    font-size: 0.8rem;
+    padding: 0.825rem 3rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .jumbotron-text {
+    padding: 0;
+  }
+  .img-illustration-mockups {
+    width: 95%;
+  }
+  .card {
+    .card-body {
+      padding: 2rem 1.75rem 2rem 0.5rem;
+    }
+    .card-img-top {
+      margin-bottom: 0;
+    }
+  }
+  .card-get-started {
+    width: 73%;
+    margin-right: auto;
+    margin-left: auto;
+
+    .card-body {
+      padding: 2.85rem 1rem !important;
+      .card-title {
+        font-size: 1.35rem;
+        margin-bottom: 1.75rem;
+      }
+      .btn {
+        font-size: 0.95rem;
+        padding: 0.825rem 3.5rem;
+      }
+    }
+  }
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.75rem 3.75rem;
+  }
+  .btn-sm {
+    font-size: 0.75rem;
+    padding: 0.6rem 2.75rem;
+  }
+  .navbar-brand img {
+    width: 125px;
+  }
+  .footer li {
+    &:first-child {
+      padding-top: 0px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .jumbotron-header {
+    .heading-1 {
+      font-size: 2rem;
+    }
+  }
+  .card-title {
+    font-size: 1.75rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .btn-sm {
+    font-size: 0.92rem;
+    padding: 0.77rem 3.85rem;
+  }
+  .navbar-brand img {
+    width: 185px;
+  }
+  .jumbotron-header {
+    .heading-1 {
+      font-size: 2.45rem;
+    }
+    .jumbotron-text {
+      font-size: 1.15rem;
+    }
+    .btn-get-started {
+      padding: 1.1rem 4.5rem;
+    }
+  }
+  .card-title {
+    font-size: 1.75rem;
+  }
+  .card-text {
+    font-size: 1.15rem;
+  }
+  .card-get-started {
+    width: 73%;
+    margin-right: auto;
+    margin-left: auto;
+    top: 115px;
+    .card-body {
+      padding-top: 4.375rem;
+      padding-bottom: 3.15rem;
+      .card-title {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+      }
+      .btn {
+        font-size: 1.25rem;
+        padding: 1.5rem 6.15rem;
+      }
+    }
+  }
+  .footer {
+    padding-top: 200px;
+  }
+  .copyright {
+    font-size: 0.75rem;
+  }
+}
+
 // Project specific
